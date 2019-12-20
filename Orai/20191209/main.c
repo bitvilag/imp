@@ -1,7 +1,7 @@
 #include "merge.h"
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	int a[IN_SZ];
 	int	b[IN_SZ];
