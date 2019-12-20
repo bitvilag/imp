@@ -1,0 +1,14 @@
+gcc -fsanitize=address -g merge.c
+
+gcc -g 
+
+C:\Users\h3z2bt\Documents\20191209>gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=C:/Program\ Files\ (x86)/CodeBlocks/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 5.1.0 (tdm-1)
+
+C:\Users\h3z2bt\Documents\20191209>

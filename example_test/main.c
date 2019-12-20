@@ -2,7 +2,7 @@
 
 #include "merge.h"
 
-int main(int argc, char const **argv) {
+int main(void) {
   
   int a[IN_SZ];
   int b[IN_SZ];
